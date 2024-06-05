@@ -46,7 +46,7 @@ const Dashboard = () => {
 
   products &&
     products.forEach((item) => {
-      if (item.Stock < 30) {
+      if (item.Stock < 150) {
         canNhapHang += 1;
       }
     });
